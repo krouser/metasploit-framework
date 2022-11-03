@@ -34,4 +34,6 @@ helm upgrade --create-namespace -i -n metasploit meterpreter ./meterpreter --set
 ## Privileges
 
 The Meterpreter container can be deployed with different privileges and permissions - see the `privileges` section within
+https://github.com/rapid7/metasploit-framework/blob/master/kubernetes/meterpreter/values.yaml
 [./meterpreter/values.yaml](values.yaml) for more details.
+
